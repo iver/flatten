@@ -1,7 +1,8 @@
 package main
 
 import "fmt"
-import "log"
+
+// import "log"
 
 func main() {
 	var one = 1
@@ -23,10 +24,10 @@ func Flatten(list []interface{}) (result []int) {
 	for _, element := range list {
 		switch data := element.(type) {
 		case int:
-			log.Printf("Data int: %v", data)
+			//			log.Printf("Data int: %v", data)
 			result = append(result, data)
 		case []interface{}:
-			log.Printf("Data interface: %v", data)
+			//			log.Printf("Data interface: %v", data)
 			result = append(result, Flatten(data)...)
 		}
 	}
