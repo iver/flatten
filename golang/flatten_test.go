@@ -2,7 +2,6 @@ package main
 
 import (
 	// 	"gotest.tools/assert"
-	//	"reflect"
 	"testing"
 )
 
@@ -13,7 +12,7 @@ func TestFlatten(t *testing.T) {
 	t.Log("List3: ", list3)
 	var flat = Flatten(list3)
 
-	var expected = []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	var expected = []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 0}
 
 	//	t.Log("Flat: ", flat)
 	//	t.Log("Expected: ", expected)

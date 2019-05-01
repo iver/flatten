@@ -27,7 +27,7 @@ $ git clone git@github.com:iver/flatten.git
 Go to elixir folder...
 
 ```
-$ cd flatten/
+$ cd flatten/elixir/
 $ iex 
 Erlang/OTP 21 [erts-10.2.3] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [hipe] [dtrace]
 
